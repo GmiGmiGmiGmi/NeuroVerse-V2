@@ -115,6 +115,12 @@ body.context-aac .step-recap li::before{background:var(--orange)}
 .platform-btn.active{background:var(--blue);color:#fff}
 body.context-aac .platform-btn.active{background:var(--orange)}
 
+/* Full-width infographic step: image is self-explanatory, no card chrome needed */
+.guide-step.infographic-step{padding:0;margin:0 0 28px;border:none;background:transparent;box-shadow:none}
+.guide-step.infographic-step .guide-image-wrap{margin:0;padding:0}
+.guide-step.infographic-step .guide-image-wrap img{border-radius:24px;box-shadow:0 12px 32px rgba(20,50,90,.10)}
+.dialog .guide-image.infographic{max-width:100%;max-height:none;width:100%}
+
 @media(max-width:900px){
   .guide-step.integrated{grid-template-columns:1fr;padding:22px}
   .guide-step-lead h3{font-size:26px}

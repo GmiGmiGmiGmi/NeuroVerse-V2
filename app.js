@@ -66,7 +66,7 @@ const guides={
 
 // AAC product landing guides — Trial Cards take priority
 "aac-trilogy":{title:"AAC — NeuroNode Trilogy",source:"TRIAL CARDS (2).pdf — priority source",steps:[
-["./assets/nn-trilogy-windows-setup-1.jpg","Set up EyeGaze",["Turn on the device.","Check the EyeGaze cables are connected.","Sit the user in position, then calibrate."],"windows"],
+["./assets/nn-trilogy-windows-infographic-1.svg","Set up EyeGaze",null,"windows"],
 ["./assets/nn-trilogy-windows-setup-2.jpg","Add NeuroNode + Grid 3",["Open the Controller App.","Shake to Wake, then connect NeuroNode.","Place NeuroNode on the user.","Open Grid 3."],"windows"],
 ["./assets/nn-trilogy-ios-setup-1.jpg","Set up EyeGaze (Oskol 2)",["Turn on the device.","Check the rear toggle switch.","Complete Hiru calibration.","Review iOS Accessibility settings."],"ios"],
 ["./assets/nn-trilogy-ios-setup-2.jpg","Add NeuroNode",["Connect NeuroNode in the Controller App.","Place it on the user.","Open Grid for iPad or your AAC app."],"ios"]
@@ -153,6 +153,7 @@ document.querySelectorAll("[data-context]").forEach(a=>a.addEventListener("click
 function contextForKey(key){return key.startsWith("ns-")?"neurostrip":"aac"}
 
 function imageClass(src){
+  if(/infographic/i.test(src))return "infographic";
   return /skin-preparation|patch-alignment|emg-placement|dysphagia|eyegaze|trial|setup|charge|band|indicator|overview|guide/i.test(src) ? "portrait" : "landscape";
 }
 function renderGuide(key){
@@ -176,6 +177,10 @@ function renderGuide(key){
       counts[platform]=(counts[platform]||0)+1;
       const idx=counts[platform];
       const media=`<div class="guide-image-wrap"><img class="guide-image ${imageClass(s[0])}" src="${s[0]}" alt="${s[1]}"></div><div class="image-actions">Click image to enlarge <a href="${s[0]}" target="_blank" rel="noopener">Open image in new tab ↗</a></div>`;
+      if(s[2]===null){
+        // Full infographic step: the image is fully self-explanatory (its own headings/icons), so it spans the whole card.
+        return `<section class="guide-step infographic-step"${platform?` data-platform="${platform}"`:""}>${media}</section>`;
+      }
       if(Array.isArray(s[2])){
         // Short-form step: big "Step N" heading + brief recap on the left, image dominates on the right.
         return `<section class="guide-step integrated"${platform?` data-platform="${platform}"`:""}>
