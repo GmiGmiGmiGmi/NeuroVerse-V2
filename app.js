@@ -10,70 +10,70 @@ const guides={
 "ns-quickstart":{title:"NeuroStrip — Quick start & overview",source:"NeuroStrip User Guide",steps:[
  [
   "https://hounpydwftmlwncezujd.supabase.co/storage/v1/object/public/support-images/NeuroStrip/getting-started/quick%20view.png",
-      "Quick view",
-      "Review the supplied Quick View guide for a high-level overview of NeuroStrip setup and operation."],
-    ["./assets/ns-guide-overview.png","Overview","Confirm NeuroStrip is charged, prepare the target site, connect it in the application and select the appropriate workflow."],
-["./assets/ns-guide-dashboard.png","Application dashboard","Use the dashboard to access Clients, Protocols and Connections."]
+      "The quick view",
+      ["A fast overview of NeuroStrip setup and use.","Good first stop if you're brand new."]],
+    ["./assets/ns-guide-overview.png","Before you begin",["Charge NeuroStrip.","Prep the target site.","Connect it, then pick your workflow."]],
+["./assets/ns-guide-dashboard.png","Find your way around",["The dashboard is home to Clients, Protocols and Connections."]]
 ]},
 "ns-skinprep":{title:"NeuroStrip — Skin preparation",source:"Supplied Skin Preparation guide",steps:[
-["./assets/ns-skin-preparation.jpg","Skin preparation","Locate the target muscle, shave if required, clean and abrade the area, apply conductive solution as directed, and allow the skin to dry completely."]
+["./assets/ns-skin-preparation.jpg","Get the skin ready",["Find the target muscle.","Shave the area if needed.","Clean and lightly abrade the skin.","Apply the conductive solution.","Let it dry fully before placing NeuroStrip."]]
 ]},
 "ns-placement":{title:"NeuroStrip — EMG placement",source:"Supplied sEMG placement guides",steps:[
-["./assets/ns-emg-placement-1.jpg","sEMG placement principles","Place NeuroStrip over the intended active muscle rather than a tendon or joint, and align it with the muscle fibre direction."],
-["./assets/ns-emg-placement-2.jpg","Body placement examples","Review the supplied examples for common upper-body, core and lower-body sites."]
+["./assets/ns-emg-placement-1.jpg","Where to place it",["Sit it over the muscle belly, not a tendon or joint.","Line it up with the direction of the muscle fibres."]],
+["./assets/ns-emg-placement-2.jpg","Common body sites",["See examples for upper body, core and lower body placements."]]
 ]},
 "ns-patch":{title:"NeuroStrip — Patch alignment",source:"Supplied Patch Alignment guide",steps:[
-["./assets/ns-patch-alignment.jpg","Patch Alignment Tool","Follow the supplied six-step alignment process before applying the joined NeuroStrip and patch to the prepared site."]
+["./assets/ns-patch-alignment.jpg","Line up the patch",["Follow the six alignment steps.","Then apply the joined NeuroStrip and patch to the prepared site."]]
 ]},
 "ns-connections":{title:"NeuroStrip — Connect NeuroStrip",source:"NeuroStrip User Guide",steps:[
-["./assets/ns-guide-connections.png","Connections","Wake NeuroStrip, scan for devices, connect the required unit and assign it to the correct channel / muscle."]
+["./assets/ns-guide-connections.png","Get connected",["Wake NeuroStrip up.","Scan for nearby devices.","Connect it, then assign it to the right channel or muscle."]]
 ]},
 "ns-patient":{title:"NeuroStrip — Patient / Client Manager",source:"NeuroStrip User Guide",steps:[
-["./assets/ns-guide-dashboard.png","Client dashboard","Search, filter, select or create a client."],
-["./assets/ns-guide-new-patient.png","Create a patient / client","Enter the required information and optional tags."],
-["./assets/ns-guide-patient-overview.png","Overview","Review available amplitude, distribution and iEMG metrics."],
-["./assets/ns-guide-patient-sessions.png","Sessions","Review previous recordings and session actions."],
-["./assets/ns-guide-measurements.png","Measurements","Review latest and best results, performance delta and trends."]
+["./assets/ns-guide-dashboard.png","Find your client",["Search, filter, or pick from the list.","Or create a brand new client."]],
+["./assets/ns-guide-new-patient.png","Add a new client",["Fill in their basic details.","Add tags if it helps you organise later."]],
+["./assets/ns-guide-patient-overview.png","See their overview",["Amplitude, distribution and iEMG all in one view."]],
+["./assets/ns-guide-patient-sessions.png","Browse past sessions",["Every previous recording, ready to open."]],
+["./assets/ns-guide-measurements.png","Check their progress",["Latest and best results.","How much they've improved over time."]]
 ]},
 "ns-protocols":{title:"NeuroStrip — Create / edit protocols",source:"NeuroStrip User Guide",steps:[
-["./assets/ns-guide-protocols.png","Open Protocols","Choose an existing protocol to Clone/Edit or select New Protocol."],
-["./assets/ns-guide-create-protocol-1.png","Protocol details","Enter protocol details, tags and selected muscle channels."],
-["./assets/ns-guide-create-protocol-2.png","Timeline & visualisation","Configure repetitions, timing, intervals, graph scale and target settings."],
-["./assets/ns-guide-edit-protocol.png","Preview & save","Confirm the sequence and visual feedback before saving."]
+["./assets/ns-guide-protocols.png","Start a protocol",["Clone or edit an existing one.","Or start a brand new protocol."]],
+["./assets/ns-guide-create-protocol-1.png","Set the basics",["Name it, tag it, pick your muscle channels."]],
+["./assets/ns-guide-create-protocol-2.png","Set the timing",["Choose reps, intervals, and your target settings."]],
+["./assets/ns-guide-edit-protocol.png","Check it, then save",["Preview the full sequence before saving it."]]
 ]},
 "ns-session":{title:"NeuroStrip — Start a session",source:"NeuroStrip User Guide",steps:[
-["./assets/ns-guide-new-session.png","Devices, channels & placement","Connect devices and assign them to channels and body placements."],
-["./assets/ns-guide-select-protocol.png","Select protocol(s)","Choose the required protocol(s) and confirm the selected sequence."],
-["./assets/ns-guide-session-graph.png","Recording screen","Confirm channel indicators, placements and live sEMG before recording."]
+["./assets/ns-guide-new-session.png","Connect your devices",["Assign each one to a channel and body placement."]],
+["./assets/ns-guide-select-protocol.png","Pick your protocol",["Choose one (or more) and confirm the sequence."]],
+["./assets/ns-guide-session-graph.png","Ready to record",["Double check placements and the live signal first."]]
 ]},
 "ns-graph":{title:"NeuroStrip — Session graph & controls",source:"NeuroStrip User Guide",steps:[
-["./assets/ns-guide-session-graph.png","Session Recording","Review live sEMG, channel indicators and recruitment patterns."],
-["./assets/ns-guide-graph-controls.png","Graph controls","Use widgets, audio, repetitions, Go intervals, notes, skip, pause and stop controls."]
+["./assets/ns-guide-session-graph.png","Reading the live graph",["Watch the signal and channel indicators as they record."]],
+["./assets/ns-guide-graph-controls.png","The controls you have",["Widgets, audio, rep counting, notes, skip, pause and stop — all here."]]
 ]},
 "ns-review":{title:"NeuroStrip — Review sessions & measurements",source:"NeuroStrip User Guide",steps:[
-["./assets/ns-guide-patient-sessions.png","Saved sessions","Review previous sessions and available export actions."],
-["./assets/ns-guide-measurements.png","Measurements & trends","Review saved tests, latest/best results, performance delta and trend history."]
+["./assets/ns-guide-patient-sessions.png","Look back at sessions",["Open any past session.","Export it if you need to."]],
+["./assets/ns-guide-measurements.png","See the bigger picture",["Latest results, best results, and the trend over time."]]
 ]},
 "ns-troubleshooting":{title:"NeuroStrip — Troubleshooting",source:"NeuroStrip User Guide",steps:[
-["./assets/ns-guide-troubleshooting.png","Troubleshooting checks","Check device wake/connection, skin preparation, patch adherence and NeuroStrip-to-patch alignment. Escalate unresolved issues to Support."]
-]},
+["./assets/ns-guide-troubleshooting.png","Work through these checks",["Is it awake and connected?","Is the skin prepped properly?","Is the patch sticking well?","Is NeuroStrip aligned on the patch?"]]
+],warning:"Still stuck after these checks? Reach out to Support — we're happy to help."},
 "ns-rehab":{title:"NeuroStrip — Rehabilitation pathway",source:"NeuroStrip support materials",jump:["ns-skinprep","ns-placement","ns-connections","ns-patient","ns-protocols","ns-session","ns-review"]},
 "ns-sport":{title:"NeuroStrip — Sports & Performance pathway",source:"NeuroStrip support materials",jump:["ns-placement","ns-connections","ns-protocols","ns-session","ns-graph","ns-review"]},
 "ns-dysphagia":{title:"NeuroStrip — Dysphagia",source:"Supplied Dysphagia 2-pager",steps:[
-["./assets/ns-dysphagia-overview.png","Dysphagia overview","The supplied resource describes sEMG biofeedback for swallowing-muscle activation."],
-["./assets/ns-dysphagia-use-cases.png","Use cases","Review the supplied swallowing exercises, clinical contexts and research / education examples."]
-],warning:"Dysphagia assessment and treatment require appropriate clinical expertise and governance. This hub provides product-operation guidance only."},
+["./assets/ns-dysphagia-overview.png","What this is for",["sEMG biofeedback to help with swallowing-muscle activation."]],
+["./assets/ns-dysphagia-use-cases.png","How it's used",["Swallowing exercises across a range of clinical and education settings."]]
+],warning:"Dysphagia assessment and treatment need appropriate clinical expertise. This hub only covers how to operate the product."},
 
 // AAC product landing guides — Trial Cards take priority
 "aac-trilogy":{title:"AAC — NeuroNode Trilogy",source:"TRIAL CARDS (2).pdf — priority source",steps:[
-["./assets/nn-trilogy-windows-setup-1.jpg","Windows — set up EyeGaze",["Turn on the device.","Check the EyeGaze cables are connected.","Sit the user in position, then calibrate."]],
-["./assets/nn-trilogy-windows-setup-2.jpg","Windows — add NeuroNode + Grid 3",["Open the Controller App.","Shake to Wake, then connect NeuroNode.","Place NeuroNode on the user.","Open Grid 3."]],
-["./assets/nn-trilogy-ios-setup-1.jpg","iOS — set up EyeGaze (Oskol 2)",["Turn on the device.","Check the rear toggle switch.","Complete Hiru calibration.","Review iOS Accessibility settings."]],
-["./assets/nn-trilogy-ios-setup-2.jpg","iOS — add NeuroNode",["Connect NeuroNode in the Controller App.","Place it on the user.","Open Grid for iPad or your AAC app."]]
+["./assets/nn-trilogy-windows-setup-1.jpg","Set up EyeGaze",["Turn on the device.","Check the EyeGaze cables are connected.","Sit the user in position, then calibrate."],"windows"],
+["./assets/nn-trilogy-windows-setup-2.jpg","Add NeuroNode + Grid 3",["Open the Controller App.","Shake to Wake, then connect NeuroNode.","Place NeuroNode on the user.","Open Grid 3."],"windows"],
+["./assets/nn-trilogy-ios-setup-1.jpg","Set up EyeGaze (Oskol 2)",["Turn on the device.","Check the rear toggle switch.","Complete Hiru calibration.","Review iOS Accessibility settings."],"ios"],
+["./assets/nn-trilogy-ios-setup-2.jpg","Add NeuroNode",["Connect NeuroNode in the Controller App.","Place it on the user.","Open Grid for iPad or your AAC app."],"ios"]
 ]},
 "aac-duo":{title:"AAC — NeuroNode Duo",source:"TRIAL CARDS (2).pdf — priority source",steps:[
-["./assets/nn-duo-windows-quick.jpg","Windows quick setup",["Turn on the device.","Open the Controller App.","Shake to Wake and connect NeuroNode.","Place it, then open Grid 3 or your AAC software."]],
-["./assets/nn-duo-ios-quick.jpg","iOS quick setup",["Turn on the device.","Open the Controller App.","Shake to Wake and connect NeuroNode.","Place it, then open Grid for iPad or your AAC software."]]
+["./assets/nn-duo-windows-quick.jpg","Quick setup",["Turn on the device.","Open the Controller App.","Shake to Wake and connect NeuroNode.","Place it, then open Grid 3 or your AAC software."],"windows"],
+["./assets/nn-duo-ios-quick.jpg","Quick setup",["Turn on the device.","Open the Controller App.","Shake to Wake and connect NeuroNode.","Place it, then open Grid for iPad or your AAC software."],"ios"]
 ]},
 "aac-eyegaze-duo":{title:"AAC — EyeGaze Duo (Windows)",source:"TRIAL CARDS (2).pdf + supplied Control Bionics EyeGaze guides",steps:[
 ["./assets/aac-eyegaze-duo-trial.jpg","Start with the Trial Card guide",["Follow the simplified Windows EyeGaze Duo trial workflow."]],
@@ -157,32 +157,42 @@ function imageClass(src){
 }
 function renderGuide(key){
   const g=guides[key];
-  let html=`<div class="guide-title"><span class="eyebrow">${contextForKey(key)==="aac"?"AAC SUPPORT GUIDE":"NEUROSTRIP SUPPORT GUIDE"}</span><h2>${g.title}</h2><p>Scroll down through the visual guide. Click any image to view it fullscreen.</p></div>`;
+  let html=`<div class="guide-title"><span class="eyebrow">${contextForKey(key)==="aac"?"AAC SUPPORT GUIDE":"NEUROSTRIP SUPPORT GUIDE"}</span><h2>${g.title}</h2><p>Just scroll down and follow along — tap any picture to see it bigger.</p></div>`;
   if(g.jump){
     const names={"ns-skinprep":"Skin preparation","ns-placement":"EMG placement","ns-connections":"Connect NeuroStrip","ns-patient":"Client Manager","ns-protocols":"Protocols","ns-session":"Start a session","ns-graph":"Session graph","ns-review":"Review progress","nn-connect":"Won't connect","nn-electrodes":"Electrodes & placement","nn-charge":"Charging","nn-controller":"Controller App","nn-grid3":"Grid 3","nn-troubleshoot":"Reset / Bluetooth scrub"};
     html+=`<div class="choice-grid">${g.jump.map(k=>`<button class="choice" data-jump="${k}">${names[k]||k}</button>`).join("")}</div>`;
   }
   if(g.steps && g.steps.length){
-    html+=`<div class="vertical-guide">`+g.steps.map((s,i)=>{
+    const hasPlatforms=g.steps.some(s=>s[3]);
+    if(hasPlatforms){
+      const order=["windows","ios"],labels={windows:"🖥️ Windows",ios:"📱 iOS"};
+      const present=order.filter(p=>g.steps.some(s=>s[3]===p));
+      html+=`<div class="platform-toggle" role="tablist">${present.map((p,i)=>`<button class="platform-btn${i===0?" active":""}" data-platform="${p}">${labels[p]}</button>`).join("")}</div>`;
+    }
+    const counts={};
+    html+=`<div class="vertical-guide">`+g.steps.map((s)=>{
+      const platform=s[3]||null;
+      const totalForPlatform=platform?g.steps.filter(x=>x[3]===platform).length:g.steps.length;
+      counts[platform]=(counts[platform]||0)+1;
+      const idx=counts[platform];
       const media=`<div class="guide-image-wrap"><img class="guide-image ${imageClass(s[0])}" src="${s[0]}" alt="${s[1]}"></div><div class="image-actions">Click image to enlarge <a href="${s[0]}" target="_blank" rel="noopener">Open image in new tab ↗</a></div>`;
       if(Array.isArray(s[2])){
-        // Short-form, action-list step: image + numbered badge + connector + bold action lines, integrated as one card.
-        return `<section class="guide-step integrated">
-          <div class="guide-step-media"><span class="step-badge">${i+1}</span>${media}</div>
-          <div class="step-connector">→</div>
-          <div class="guide-step-text">
-            <span class="step-kicker">STEP ${i+1} OF ${g.steps.length}</span>
+        // Short-form step: big "Step N" heading + brief recap on the left, image dominates on the right.
+        return `<section class="guide-step integrated"${platform?` data-platform="${platform}"`:""}>
+          <div class="guide-step-lead">
+            <span class="step-kicker">STEP ${idx} OF ${totalForPlatform}</span>
             <h3>${s[1]}</h3>
-            <ol class="step-actions">${s[2].map(a=>`<li>${a}</li>`).join("")}</ol>
+            <ul class="step-recap">${s[2].map(a=>`<li>${a}</li>`).join("")}</ul>
           </div>
+          <div class="guide-step-visual">${media}</div>
         </section>`;
       }
-      return `<section class="guide-step"><span class="step-kicker">STEP / VISUAL ${i+1} OF ${g.steps.length}</span><h3>${s[1]}</h3><p>${s[2]}</p>${media}</section>`;
+      return `<section class="guide-step"><span class="step-kicker">STEP / VISUAL ${idx} OF ${totalForPlatform}</span><h3>${s[1]}</h3><p>${s[2]}</p>${media}</section>`;
     }).join("")+`</div>`;
   }
   if(key==="aac-mounts"){
     const mountAssets=["./assets/aac-mounts-1.jpg","./assets/aac-mounts-2.jpg"].filter(src=>assetExists(src));
-    html+=`<div class="vertical-guide"><section class="guide-step integrated"><div class="guide-step-media"><span class="step-badge">1</span><div class="guide-image-wrap"><img class="guide-image portrait" src="${mountAssets[0]||''}" alt="Trial mounting system"></div><div class="image-actions">Click image to enlarge <a href="${mountAssets[0]||''}" target="_blank">Open image in new tab ↗</a></div></div><div class="step-connector">→</div><div class="guide-step-text"><span class="step-kicker">TRIAL MOUNTING SYSTEMS</span><h3>Table Stand &amp; Floor Stand</h3><ol class="step-actions"><li>Pick Table Stand or Floor Stand for the trial.</li><li>Follow the supplied mounting documentation to set it up.</li><li>Contact Support for configuration-specific help.</li></ol></div></section>${mountAssets.slice(1).map((src,i)=>`<section class="guide-step integrated"><div class="guide-step-media"><span class="step-badge">${i+2}</span><div class="guide-image-wrap"><img class="guide-image portrait" src="${src}" alt="Trial mounting system ${i+2}"></div><div class="image-actions">Click image to enlarge <a href="${src}" target="_blank">Open image in new tab ↗</a></div></div><div class="step-connector">→</div><div class="guide-step-text"><span class="step-kicker">TRIAL MOUNTING SYSTEMS</span><h3>Additional mounting view</h3><ol class="step-actions"><li>Check this angle against your chair or desk setup.</li></ol></div></section>`).join("")}</div>`;
+    html+=`<div class="vertical-guide"><section class="guide-step integrated"><div class="guide-step-lead"><span class="step-kicker">TRIAL MOUNTING SYSTEMS</span><h3>Table Stand &amp; Floor Stand</h3><ul class="step-recap"><li>Pick Table Stand or Floor Stand for the trial.</li><li>Follow the supplied mounting documentation to set it up.</li><li>Contact Support for configuration-specific help.</li></ul></div><div class="guide-step-visual"><div class="guide-image-wrap"><img class="guide-image portrait" src="${mountAssets[0]||''}" alt="Trial mounting system"></div><div class="image-actions">Click image to enlarge <a href="${mountAssets[0]||''}" target="_blank">Open image in new tab ↗</a></div></div></section>${mountAssets.slice(1).map((src,i)=>`<section class="guide-step integrated"><div class="guide-step-lead"><span class="step-kicker">TRIAL MOUNTING SYSTEMS</span><h3>Additional mounting view</h3><ul class="step-recap"><li>Check this angle against your chair or desk setup.</li></ul></div><div class="guide-step-visual"><div class="guide-image-wrap"><img class="guide-image portrait" src="${src}" alt="Trial mounting system ${i+2}"></div><div class="image-actions">Click image to enlarge <a href="${src}" target="_blank">Open image in new tab ↗</a></div></div></section>`).join("")}</div>`;
   }
   if(g.warning)html+=`<div class="callout warning">${g.warning}</div>`;
   html+=`<div class="source-note">Source basis: ${g.source}</div>`;
@@ -190,12 +200,24 @@ function renderGuide(key){
 }
 function assetExists(src){const test=new Image();test.src=src;return true}
 
+function applyPlatformFilter(scope,platform){
+  scope.querySelectorAll(".guide-step[data-platform]").forEach(el=>{el.style.display=el.dataset.platform===platform?"":"none"});
+}
 function openGuide(key,push=true){
   if(push&&current&&current!==key)history.push(current);
   current=key;setContext(contextForKey(key));
   content.innerHTML=renderGuide(key);
   modal.classList.add("open");modal.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";
   content.querySelectorAll("[data-jump]").forEach(b=>b.onclick=()=>openGuide(b.dataset.jump,true));
+  const platformBtns=content.querySelectorAll(".platform-btn");
+  if(platformBtns.length){
+    applyPlatformFilter(content,platformBtns[0].dataset.platform);
+    platformBtns.forEach(b=>b.onclick=()=>{
+      platformBtns.forEach(x=>x.classList.remove("active"));
+      b.classList.add("active");
+      applyPlatformFilter(content,b.dataset.platform);
+    });
+  }
   bindZoom(content);
   document.querySelector(".dialog").scrollTop=0;
 }

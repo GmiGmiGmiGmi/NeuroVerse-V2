@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Control Bionics Support Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body class="context-neutral">
@@ -26,8 +29,8 @@
 <section class="hero">
   <div>
     <span class="eyebrow">CONTROL BIONICS SUPPORT HUB</span>
-    <h1>Choose your support section</h1>
-    <p>Start with NeuroStrip or AAC, then follow a visual step-by-step guide. The support mascot changes with the section you are using.</p>
+    <h1>Hi! Let's get you sorted 👋</h1>
+    <p>Whether you're a parent, a student, a therapist, or just getting started — you're in the right place. Pick NeuroStrip or AAC below, and a friendly step-by-step guide (with pictures!) will walk you through it.</p>
   </div>
   <div class="hero-mascots">
     <img src="./assets/nero-transparent.png" alt="Nero">
@@ -38,17 +41,17 @@
 
 <section id="choose-section" class="section">
   <div class="section-head">
-    <div><span class="eyebrow">START HERE</span><h2>Choose your section</h2></div>
-    <p>Two clear support areas: NeuroStrip for sEMG and movement, and AAC for communication devices and access technology.</p>
+    <div><span class="eyebrow">START HERE</span><h2>What are you here for?</h2></div>
+    <p>Two simple areas: NeuroStrip for muscle sensors and movement, and AAC for communication devices.</p>
   </div>
   <div class="section-selector">
     <a class="section-choice neurostrip-choice" href="#neurostrip" data-context="neurostrip">
       <div class="choice-art"><img src="./assets/neurostrip-sensor.jpg" alt="NeuroStrip"></div>
-      <div><span class="eyebrow">NERO'S SECTION</span><h3>NeuroStrip</h3><p>Setup, skin preparation, EMG placement, protocols, sessions, measurements, rehab, sport, dysphagia and troubleshooting.</p><strong>Open NeuroStrip support →</strong></div>
+      <div><span class="eyebrow">NERO'S SECTION</span><h3>NeuroStrip</h3><p>Setting it up, placing it correctly, running sessions, and fixing signal issues — for rehab, sport, or swallowing support.</p><strong>Open NeuroStrip help →</strong></div>
     </a>
     <a class="section-choice aac-choice" href="#aac" data-context="aac">
       <div class="choice-art"><img src="./assets/nodi-neuronode.png" alt="Nodi"></div>
-      <div><span class="eyebrow">NODI'S SECTION</span><h3>AAC</h3><p>NeuroNode, EyeGaze, communication devices, Grid 3, iOS AAC, mounting and common device troubleshooting.</p><strong>Open AAC support →</strong></div>
+      <div><span class="eyebrow">NODI'S SECTION</span><h3>AAC</h3><p>NeuroNode, EyeGaze, Grid 3, iPad access — setup help and quick fixes for communication devices.</p><strong>Open AAC help →</strong></div>
     </a>
   </div>
 </section>
@@ -56,30 +59,30 @@
 <!-- NEUROSTRIP -->
 <section id="neurostrip" class="product-zone neurostrip-zone">
   <div class="product-zone-hero">
-    <div><span class="eyebrow">NEUROSTRIP SUPPORT</span><h2>NeuroStrip</h2><p>Visual guides for sEMG setup, placement, application workflows, sessions and data review.</p></div>
+    <div><span class="eyebrow">NEUROSTRIP SUPPORT</span><h2>NeuroStrip</h2><p>Pictures and simple steps for setting up, placing, and using NeuroStrip — however you're using it.</p></div>
     <div class="zone-mascot"><img src="./assets/nero-transparent.png" alt="Nero"><strong>Nero</strong></div>
   </div>
   <div class="zone-inner">
-    <h3>Choose your pathway</h3>
+    <h3>What are you using it for?</h3>
     <div class="path-grid">
-      <button class="path-card" data-open="ns-rehab"><span>♿</span><strong>Rehabilitation</strong><small>Activation, repeatable sessions and progress tracking.</small></button>
-      <button class="path-card" data-open="ns-sport"><span>🏃</span><strong>Sports & Performance</strong><small>Muscle comparison, protocols and repeated measurements.</small></button>
-      <button class="path-card" data-open="ns-dysphagia"><span>◉</span><strong>Dysphagia</strong><small>Swallowing sEMG biofeedback resources.</small></button>
+      <button class="path-card" data-open="ns-rehab"><span>♿</span><strong>Rehabilitation</strong><small>Tracking progress over repeated sessions.</small></button>
+      <button class="path-card" data-open="ns-sport"><span>🏃</span><strong>Sport & performance</strong><small>Comparing muscles and repeat measurements.</small></button>
+      <button class="path-card" data-open="ns-dysphagia"><span>◉</span><strong>Swallowing support</strong><small>Biofeedback for swallowing (dysphagia).</small></button>
     </div>
-    <h3 class="subhead">NeuroStrip Get Help guides</h3>
+    <h3 class="subhead">Step-by-step guides</h3>
     <div class="guide-grid">
-      <button class="guide-card" data-open="ns-quickstart"><b>01</b><strong>Quick start</strong><small>Overview and preparation</small></button>
-      <button class="guide-card" data-open="ns-skinprep"><b>02</b><strong>Skin preparation</strong><small>Prepare the target site</small></button>
-      <button class="guide-card" data-open="ns-placement"><b>03</b><strong>EMG placement</strong><small>Placement rules and examples</small></button>
-      <button class="guide-card" data-open="ns-patch"><b>04</b><strong>Patch alignment</strong><small>Patch Alignment Tool</small></button>
-      <button class="guide-card" data-open="ns-connections"><b>05</b><strong>Connect NeuroStrip</strong><small>Scan, connect and assign channels</small></button>
-      <button class="guide-card" data-open="ns-patient"><b>06</b><strong>Patient / Client Manager</strong><small>Clients, sessions and measurements</small></button>
-      <button class="guide-card" data-open="ns-protocols"><b>07</b><strong>Create / edit protocols</strong><small>Timeline, targets and preview</small></button>
-      <button class="guide-card" data-open="ns-session"><b>08</b><strong>Start a session</strong><small>Devices, channels and protocol selection</small></button>
-      <button class="guide-card" data-open="ns-graph"><b>09</b><strong>Session graph & controls</strong><small>Live sEMG and widgets</small></button>
-      <button class="guide-card" data-open="ns-review"><b>10</b><strong>Review & measurements</strong><small>Sessions, exports and trends</small></button>
-      <button class="guide-card" data-open="ns-troubleshooting"><b>11</b><strong>Troubleshooting</strong><small>Connectivity and signal checks</small></button>
-      <button class="guide-card" data-open="ns-dysphagia"><b>12</b><strong>Dysphagia</strong><small>Dedicated swallowing support</small></button>
+      <button class="guide-card" data-open="ns-quickstart"><b>01</b><strong>Quick start</strong><small>Get set up in a few minutes</small></button>
+      <button class="guide-card" data-open="ns-skinprep"><b>02</b><strong>Prepare the skin</strong><small>For the best signal</small></button>
+      <button class="guide-card" data-open="ns-placement"><b>03</b><strong>Where to place it</strong><small>With pictures for each muscle</small></button>
+      <button class="guide-card" data-open="ns-patch"><b>04</b><strong>Lining up the patch</strong><small>Using the alignment tool</small></button>
+      <button class="guide-card" data-open="ns-connections"><b>05</b><strong>Connect NeuroStrip</strong><small>Scan and pick your channels</small></button>
+      <button class="guide-card" data-open="ns-patient"><b>06</b><strong>Manage clients</strong><small>Clients, sessions, results</small></button>
+      <button class="guide-card" data-open="ns-protocols"><b>07</b><strong>Build a protocol</strong><small>Set your targets and timing</small></button>
+      <button class="guide-card" data-open="ns-session"><b>08</b><strong>Start a session</strong><small>Pick your device and protocol</small></button>
+      <button class="guide-card" data-open="ns-graph"><b>09</b><strong>Reading the live graph</strong><small>What the signal is telling you</small></button>
+      <button class="guide-card" data-open="ns-review"><b>10</b><strong>Review past sessions</strong><small>Trends, exports and progress</small></button>
+      <button class="guide-card" data-open="ns-troubleshooting"><b>11</b><strong>Something's not right</strong><small>Connection and signal checks</small></button>
+      <button class="guide-card" data-open="ns-dysphagia"><b>12</b><strong>Swallowing support</strong><small>A dedicated walkthrough</small></button>
     </div>
   </div>
 </section>
@@ -87,57 +90,57 @@
 <!-- AAC -->
 <section id="aac" class="product-zone aac-zone">
   <div class="product-zone-hero aac-hero">
-    <div><span class="eyebrow">AAC SUPPORT</span><h2>AAC Products & Access</h2><p>Choose the AAC product first. Trial Card content is prioritised for simple frontline setup and support.</p></div>
+    <div><span class="eyebrow">AAC SUPPORT</span><h2>AAC Products & Access</h2><p>Pick your device below to get simple, illustrated setup steps.</p></div>
     <div class="zone-mascot"><img src="./assets/nodi-neuronode.png" alt="Nodi"><strong>Nodi</strong></div>
   </div>
   <div class="zone-inner">
-    <h3>Choose your AAC product</h3>
+    <h3>Which device do you have?</h3>
     <div class="aac-product-grid">
-      <button class="aac-product" data-open="aac-trilogy"><span>NEURONODE + EYEGAZE</span><strong>NeuroNode Trilogy</strong><small>Windows and iOS setup, EyeGaze + NeuroNode access.</small></button>
-      <button class="aac-product" data-open="aac-duo"><span>NEURONODE + AAC</span><strong>NeuroNode Duo</strong><small>Windows and iOS setup, Controller App and Grid.</small></button>
-      <button class="aac-product" data-open="aac-eyegaze-duo"><span>EYEGAZE — WINDOWS</span><strong>EyeGaze Duo</strong><small>Windows EyeGaze setup, cables and positioning.</small></button>
-      <button class="aac-product" data-open="aac-oskol2"><span>EYEGAZE — iOS</span><strong>Oskol 2</strong><small>Hiru EyeGaze and iOS accessibility setup.</small></button>
-      <button class="aac-product" data-open="aac-uno-touch"><span>TOUCH AAC</span><strong>UNO Touch</strong><small>Simple touch AAC setup and trial guidance.</small></button>
-      <button class="aac-product" data-open="aac-neuronode"><span>ACCESS</span><strong>NeuroNode</strong><small>Placement, connection, charging, Controller App and Grid 3.</small></button>
-      <button class="aac-product" data-open="aac-mounts"><span>MOUNTING</span><strong>Mounts</strong><small>Table stand and floor stand trial mounting systems.</small></button>
+      <button class="aac-product" data-open="aac-trilogy"><span>NEURONODE + EYEGAZE</span><strong>NeuroNode Trilogy</strong><small>Windows or iOS setup for EyeGaze + NeuroNode.</small></button>
+      <button class="aac-product" data-open="aac-duo"><span>NEURONODE + AAC</span><strong>NeuroNode Duo</strong><small>Windows or iOS, Controller App and Grid.</small></button>
+      <button class="aac-product" data-open="aac-eyegaze-duo"><span>EYEGAZE — WINDOWS</span><strong>EyeGaze Duo</strong><small>Setup, cables and positioning on Windows.</small></button>
+      <button class="aac-product" data-open="aac-oskol2"><span>EYEGAZE — iOS</span><strong>Oskol 2</strong><small>EyeGaze and accessibility setup on iOS.</small></button>
+      <button class="aac-product" data-open="aac-uno-touch"><span>TOUCH AAC</span><strong>UNO Touch</strong><small>Simple touch setup, no fuss.</small></button>
+      <button class="aac-product" data-open="aac-neuronode"><span>ACCESS</span><strong>NeuroNode</strong><small>Placement, charging, connecting and Grid 3.</small></button>
+      <button class="aac-product" data-open="aac-mounts"><span>MOUNTING</span><strong>Mounts</strong><small>Table and floor stand options.</small></button>
     </div>
 
-    <h3 class="subhead">Common AAC Get Help</h3>
+    <h3 class="subhead">Popular quick fixes</h3>
     <div class="guide-grid">
-      <button class="guide-card orange featured" data-open="aac-eyegaze-usb"><b>01</b><strong>EyeGaze USB cables</strong><small>USB-C to camera, USB-A to device hub</small></button>
-      <button class="guide-card orange featured" data-open="aac-eyegaze-position"><b>02</b><strong>EyeGaze positioning</strong><small>45–60 cm and screen height</small></button>
-      <button class="guide-card orange" data-open="nn-connect"><b>03</b><strong>NeuroNode connection</strong><small>Shake to Wake and Bluetooth</small></button>
-      <button class="guide-card orange" data-open="nn-grid3"><b>04</b><strong>NeuroNode + Grid 3</strong><small>Switch connection and HID F9</small></button>
-      <button class="guide-card orange" data-open="nn-charge"><b>05</b><strong>NeuroNode charging</strong><small>Charging plate and indicators</small></button>
-      <button class="guide-card orange" data-open="nn-troubleshoot"><b>06</b><strong>NeuroNode reset / scrub</strong><small>Power cycle and Bluetooth reset</small></button>
-      <button class="guide-card orange" data-open="nn-electrodes"><b>07</b><strong>Electrodes & placement</strong><small>Electrode options, bezel and band</small></button>
-      <button class="guide-card orange" data-open="aac-eye-cameras"><b>08</b><strong>Which EyeGaze camera?</strong><small>Alea Windows / Hiru Windows & iOS</small></button>
+      <button class="guide-card orange featured" data-open="aac-eyegaze-usb"><b>01</b><strong>EyeGaze cables</strong><small>Which cable goes where</small></button>
+      <button class="guide-card orange featured" data-open="aac-eyegaze-position"><b>02</b><strong>Eye tracking feels off</strong><small>Distance and screen height</small></button>
+      <button class="guide-card orange" data-open="nn-connect"><b>03</b><strong>NeuroNode won't connect</strong><small>Shake to wake, reconnect</small></button>
+      <button class="guide-card orange" data-open="nn-grid3"><b>04</b><strong>Connect to Grid 3</strong><small>Add it as a switch</small></button>
+      <button class="guide-card orange" data-open="nn-charge"><b>05</b><strong>Charging NeuroNode</strong><small>How to charge it up</small></button>
+      <button class="guide-card orange" data-open="nn-troubleshoot"><b>06</b><strong>Still not connecting?</strong><small>Full reset walkthrough</small></button>
+      <button class="guide-card orange" data-open="nn-electrodes"><b>07</b><strong>Electrodes & placement</strong><small>Which one, and where</small></button>
+      <button class="guide-card orange" data-open="aac-eye-cameras"><b>08</b><strong>Which camera do I have?</strong><small>Alea vs Hiru</small></button>
     </div>
   </div>
 </section>
 
 <section id="quick-fixes" class="section soft">
-  <div class="section-head"><div><span class="eyebrow">POPULAR SOLUTIONS</span><h2>Quick fixes</h2></div><p>Common frontline support routes.</p></div>
+  <div class="section-head"><div><span class="eyebrow">POPULAR SOLUTIONS</span><h2>Quick fixes</h2></div><p>The most common things people get stuck on.</p></div>
   <div class="fix-grid">
     <button data-open="aac-eyegaze-usb"><span>🔌</span><strong>EyeGaze not detected</strong><small>Check the USB cable connection first.</small></button>
     <button data-open="aac-eyegaze-position"><span>👁</span><strong>Eye tracking feels inaccurate</strong><small>Check user distance and screen height.</small></button>
-    <button data-open="nn-connect"><span>🔵</span><strong>NeuroNode won't connect</strong><small>Shake to Wake and Bluetooth connection.</small></button>
-    <button data-open="nn-troubleshoot"><span>📌</span><strong>Reset / Bluetooth scrub</strong><small>Power cycle then documented reset workflow.</small></button>
-    <button data-open="ns-connections"><span>📶</span><strong>NeuroStrip won't connect</strong><small>Scan and assign channels.</small></button>
-    <button data-open="ns-troubleshooting"><span>📈</span><strong>NeuroStrip signal looks wrong</strong><small>Skin, patch and alignment checks.</small></button>
+    <button data-open="nn-connect"><span>🔵</span><strong>NeuroNode won't connect</strong><small>Turn it off, shake it, reconnect.</small></button>
+    <button data-open="nn-troubleshoot"><span>📌</span><strong>Still won't connect?</strong><small>The full step-by-step reset.</small></button>
+    <button data-open="ns-connections"><span>📶</span><strong>NeuroStrip won't connect</strong><small>Scan and pick your channels.</small></button>
+    <button data-open="ns-troubleshooting"><span>📈</span><strong>Signal looks wrong</strong><small>Skin, patch and alignment checks.</small></button>
   </div>
 </section>
 
 <section id="ask-guide" class="section assistant-section">
   <div class="section-head">
     <div><span class="eyebrow">FRONTLINE GUIDE</span><h2 id="assistantTitle">Ask your support guide</h2></div>
-    <p>Nero handles NeuroStrip. Nodi handles AAC, including NeuroNode, EyeGaze and communication-device support.</p>
+    <p>Not sure where to look? Just ask in your own words — Nero covers NeuroStrip, Nodi covers AAC.</p>
   </div>
   <div class="assistant-layout">
     <div class="assistant-character">
       <img id="assistantChatCharacter" src="./assets/nero-transparent.png" alt="Nero">
       <strong id="assistantIntroName">Choose a section first</strong>
-      <small id="assistantIntroText">Select NeuroStrip or AAC and the correct support mascot will take over.</small>
+      <small id="assistantIntroText">Select NeuroStrip or AAC and the right support mascot will take over.</small>
     </div>
     <div class="assistant-card">
       <div id="assistantChatLog" class="assistant-log"><div class="assistant-msg"><strong>Guide:</strong> What can I help you with?</div></div>
@@ -154,7 +157,7 @@
 </section>
 
 <section class="support">
-  <div><span class="eyebrow">NEED MORE HELP?</span><h2>Contact Control Bionics Support</h2><p>If the documented steps do not resolve the issue, escalate to Support.</p></div>
+  <div><span class="eyebrow">STILL STUCK?</span><h2>We're happy to help directly</h2><p>If the guides above didn't sort it out, just reach out — no question is too small.</p></div>
   <div class="support-actions"><a class="btn primary" href="mailto:Support.au@controlbionics.com">Email Support</a><a class="btn" target="_blank" rel="noopener" href="https://bookings.cloud.microsoft/book/ControlBionics@controlbionics.com/?ismsaljsauthenabled=true">Book Support</a></div>
 </section>
 </main>
