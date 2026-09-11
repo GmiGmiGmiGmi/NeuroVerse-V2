@@ -126,3 +126,82 @@ body.context-aac .platform-btn.active{background:var(--orange)}
   .guide-step-lead h3{font-size:26px}
   .guide-step.integrated .guide-image-wrap img{max-width:100%}
 }
+
+/* ===== 3-card hub (Get Started / EMG Academy / Help & FAQ) ===== */
+.hub-3card{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:26px}
+.hub-card{border:1.5px solid var(--line);background:#fff;border-radius:22px;padding:24px;text-align:left;text-decoration:none;color:var(--ink);transition:.16s;display:block}
+.hub-card:hover{border-color:#91b9e7;box-shadow:var(--shadow);transform:translateY(-3px)}
+.hub-card span{font-size:30px;display:block;margin-bottom:10px}
+.hub-card strong{display:block;font-size:18px}
+.hub-card small{display:block;color:var(--muted);margin-top:6px}
+
+/* ===== EMG Academy ===== */
+.academy-hero{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.academy-course{margin-bottom:22px}
+.academy-course h4{font-size:18px;margin:0 0 12px;display:flex;flex-direction:column;gap:2px}
+.course-num{font-size:11px;font-weight:900;letter-spacing:.08em;color:var(--blue)}
+.academy-lessons{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.academy-lesson{display:flex;align-items:center;gap:10px;border:1px solid var(--line);background:#fff;border-radius:14px;padding:13px 15px;text-align:left}
+.academy-lesson:hover{border-color:#91b9e7;background:#f8fbff}
+.lesson-dot{width:9px;height:9px;border-radius:50%;background:var(--blue);flex:0 0 auto}
+.lesson-name{flex:1;font-weight:700;font-size:14.5px}
+.lesson-dur{color:var(--muted);font-size:12.5px;flex:0 0 auto}
+.academy-admin-link{max-width:1100px;margin:8px auto 0;text-align:right}
+.academy-admin-link a{color:var(--muted);font-size:13px;text-decoration:none}
+.academy-admin-link a:hover{color:var(--blue)}
+
+/* Lesson detail page */
+.lesson-video{max-width:1100px;margin:0 auto 24px}
+.lesson-video-placeholder{aspect-ratio:16/9;background:#16324f;border-radius:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;font-size:42px;gap:10px}
+.lesson-video-placeholder span{font-size:14px;font-weight:700;color:#b9c9dc}
+.lesson-body{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+.lesson-block{background:var(--soft);border-radius:18px;padding:20px 24px}
+.lesson-block h3{font-size:17px;margin:0 0 10px}
+.lesson-block ul{margin:0;padding-left:20px;line-height:1.7}
+.lesson-block p{margin:6px 0}
+.lesson-next{max-width:1100px;margin:22px auto 0;display:block;width:100%;background:var(--blue);color:#fff;border:none;border-radius:16px;padding:16px;font-weight:800;font-size:15px}
+
+/* Admin panel prototype */
+.admin-panel{max-width:1100px;margin:20px auto 0;background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;display:none}
+.admin-panel.open{display:block}
+.admin-note{color:var(--muted);font-size:13px;background:#fff7e9;border-radius:10px;padding:10px 14px;margin:6px 0 16px}
+.admin-form{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.admin-form label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:700;color:var(--muted)}
+.admin-form input,.admin-form select{border:1px solid #d4dfec;border-radius:10px;padding:10px 12px;font:inherit;color:var(--ink)}
+.admin-form .btn{grid-column:1/-1;justify-self:start}
+.admin-draft-list{margin-top:16px;display:flex;flex-direction:column;gap:8px}
+.admin-draft{background:var(--soft);border-radius:10px;padding:10px 14px;font-size:13.5px}
+
+/* ===== FAQ ===== */
+.faq-search{max-width:520px;margin:0 auto 18px}
+.faq-chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:26px}
+.faq-chip{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:9px 16px;font-weight:700;font-size:13.5px}
+.faq-chip.active{background:var(--blue);border-color:var(--blue);color:#fff}
+.faq-list{max-width:900px;margin:0 auto}
+.faq-group{margin-bottom:24px}
+.faq-group h4{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 10px}
+.faq-item{border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:10px;background:#fff}
+.faq-item summary{font-weight:800;cursor:pointer}
+.faq-item p{color:var(--muted);margin:10px 0 0;line-height:1.6}
+.faq-link{border:none;background:none;color:var(--blue);font-weight:800;padding:0;margin-left:4px;cursor:pointer}
+.faq-empty{text-align:center;color:var(--muted)}
+
+/* ===== Resources ===== */
+.resource-filters{max-width:1100px;margin:0 auto 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.resource-chips{display:flex;gap:8px;flex-wrap:wrap}
+.resource-chip{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;font-weight:700;font-size:13px}
+.resource-chip.active{background:var(--orange);border-color:var(--orange);color:#fff}
+.resource-controls{display:flex;gap:8px}
+.resource-controls select,.resource-controls input{border:1px solid #d4dfec;border-radius:999px;padding:9px 14px;font:inherit}
+.resource-list{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.resource-card{border:1px solid var(--line);border-radius:18px;padding:20px;background:#fff}
+.resource-type{display:inline-block;font-size:11px;font-weight:900;background:var(--soft);color:var(--blue);border-radius:8px;padding:3px 8px;margin-bottom:10px}
+.resource-card strong{display:block;font-size:16px;margin-bottom:4px}
+.resource-card small{color:var(--muted)}
+.resource-actions{margin-top:14px}
+.resource-actions a,.resource-actions button{border:1.5px solid var(--blue);color:var(--blue);background:#fff;border-radius:999px;padding:8px 16px;font-weight:800;font-size:13px;text-decoration:none}
+
+@media(max-width:900px){
+  .hub-3card,.academy-lessons,.resource-list,.admin-form{grid-template-columns:1fr}
+  .academy-hero{flex-direction:column;align-items:flex-start}
+}

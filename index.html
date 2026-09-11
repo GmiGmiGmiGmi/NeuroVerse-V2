@@ -14,9 +14,12 @@
   <a href="#home" class="brand"><img src="./assets/control-bionics-logo.png" alt="Control Bionics"></a>
   <nav>
     <a href="#home">Home</a>
-    <a href="#neurostrip">NeuroStrip</a>
     <a href="#aac">AAC</a>
-    <a href="#quick-fixes">Quick Fixes</a>
+    <a href="#neurostrip">NeuroStrip</a>
+    <a href="#emg-academy">EMG Academy</a>
+    <a href="#resources">Resources</a>
+    <a href="#faq">FAQ</a>
+    <a href="#support-page">Support</a>
   </nav>
   <label class="search">
     <input id="searchInput" placeholder="Search support…">
@@ -63,26 +66,16 @@
     <div class="zone-mascot"><img src="./assets/nero-transparent.png" alt="Nero"><strong>Nero</strong></div>
   </div>
   <div class="zone-inner">
-    <h3>What are you using it for?</h3>
+    <div class="hub-3card">
+      <button class="hub-card" data-open="ns-quickstart"><span>🚀</span><strong>Get Started</strong><small>New to NeuroStrip? Start here.</small></button>
+      <a class="hub-card" href="#emg-academy"><span>🎓</span><strong>EMG Academy</strong><small>Learn surface EMG and NeuroStrip.</small></a>
+      <button class="hub-card" data-open="ns-troubleshooting"><span>🛠</span><strong>Help & FAQ</strong><small>Fix a problem or find an answer.</small></button>
+    </div>
+    <h3 class="subhead">What are you using it for?</h3>
     <div class="path-grid">
       <button class="path-card" data-open="ns-rehab"><span>♿</span><strong>Rehabilitation</strong><small>Tracking progress over repeated sessions.</small></button>
       <button class="path-card" data-open="ns-sport"><span>🏃</span><strong>Sport & performance</strong><small>Comparing muscles and repeat measurements.</small></button>
-      <button class="path-card" data-open="ns-dysphagia"><span>◉</span><strong>Swallowing support</strong><small>Biofeedback for swallowing (dysphagia).</small></button>
-    </div>
-    <h3 class="subhead">Step-by-step guides</h3>
-    <div class="guide-grid">
-      <button class="guide-card" data-open="ns-quickstart"><b>01</b><strong>Quick start</strong><small>Get set up in a few minutes</small></button>
-      <button class="guide-card" data-open="ns-skinprep"><b>02</b><strong>Prepare the skin</strong><small>For the best signal</small></button>
-      <button class="guide-card" data-open="ns-placement"><b>03</b><strong>Where to place it</strong><small>With pictures for each muscle</small></button>
-      <button class="guide-card" data-open="ns-patch"><b>04</b><strong>Lining up the patch</strong><small>Using the alignment tool</small></button>
-      <button class="guide-card" data-open="ns-connections"><b>05</b><strong>Connect NeuroStrip</strong><small>Scan and pick your channels</small></button>
-      <button class="guide-card" data-open="ns-patient"><b>06</b><strong>Manage clients</strong><small>Clients, sessions, results</small></button>
-      <button class="guide-card" data-open="ns-protocols"><b>07</b><strong>Build a protocol</strong><small>Set your targets and timing</small></button>
-      <button class="guide-card" data-open="ns-session"><b>08</b><strong>Start a session</strong><small>Pick your device and protocol</small></button>
-      <button class="guide-card" data-open="ns-graph"><b>09</b><strong>Reading the live graph</strong><small>What the signal is telling you</small></button>
-      <button class="guide-card" data-open="ns-review"><b>10</b><strong>Review past sessions</strong><small>Trends, exports and progress</small></button>
-      <button class="guide-card" data-open="ns-troubleshooting"><b>11</b><strong>Something's not right</strong><small>Connection and signal checks</small></button>
-      <button class="guide-card" data-open="ns-dysphagia"><b>12</b><strong>Swallowing support</strong><small>A dedicated walkthrough</small></button>
+      <button class="path-card" data-open="ns-dysphagia"><span>◉</span><strong>Swallowing support</strong><small>Coming soon.</small></button>
     </div>
   </div>
 </section>
@@ -101,7 +94,7 @@
       <button class="aac-product" data-open="aac-eyegaze-duo"><span>EYEGAZE — WINDOWS</span><strong>EyeGaze Duo</strong><small>Setup, cables and positioning on Windows.</small></button>
       <button class="aac-product" data-open="aac-oskol2"><span>EYEGAZE — iOS</span><strong>Oskol 2</strong><small>EyeGaze and accessibility setup on iOS.</small></button>
       <button class="aac-product" data-open="aac-uno-touch"><span>TOUCH AAC</span><strong>UNO Touch</strong><small>Simple touch setup, no fuss.</small></button>
-      <button class="aac-product" data-open="aac-neuronode"><span>ACCESS</span><strong>NeuroNode</strong><small>Placement, charging, connecting and Grid 3.</small></button>
+      <button class="aac-product" data-open="aac-neuronode"><span>ACCESS ONLY</span><strong>NeuroNode (only)</strong><small>Placement, charging, connecting and Grid 3.</small></button>
       <button class="aac-product" data-open="aac-mounts"><span>MOUNTING</span><strong>Mounts</strong><small>Table and floor stand options.</small></button>
     </div>
 
@@ -117,6 +110,37 @@
       <button class="guide-card orange" data-open="aac-eye-cameras"><b>08</b><strong>Which camera do I have?</strong><small>Alea vs Hiru</small></button>
     </div>
   </div>
+</section>
+
+<!-- EMG ACADEMY -->
+<section id="emg-academy" class="product-zone academy-zone">
+  <div class="product-zone-hero academy-hero">
+    <div><span class="eyebrow">EMG ACADEMY</span><h2>Learn surface EMG</h2><p>From fundamentals through practical NeuroStrip application — bite-sized video lessons, ~5 minutes each.</p></div>
+    <button class="btn primary" id="academyStartBtn" type="button">Start learning</button>
+  </div>
+  <div class="zone-inner" id="academyCourses"></div>
+  <p class="academy-admin-link"><a href="#" id="academyAdminLink">Academy admin →</a></p>
+</section>
+
+<!-- RESOURCES -->
+<section id="resources" class="section soft">
+  <div class="section-head"><div><span class="eyebrow">FIND WHAT YOU NEED</span><h2>Resources</h2></div><p>Manuals, quick start guides, training material and useful links, all in one place.</p></div>
+  <div class="resource-filters">
+    <div class="resource-chips" id="resourceChips"></div>
+    <div class="resource-controls">
+      <select id="resourceProductFilter"><option value="">All products</option></select>
+      <input id="resourceSearch" placeholder="Search resources…">
+    </div>
+  </div>
+  <div class="resource-list" id="resourceList"></div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+  <div class="section-head"><div><span class="eyebrow">QUESTIONS?</span><h2>FAQ</h2></div><p>Search or filter by topic — answers pulled straight from our guides.</p></div>
+  <label class="search faq-search"><input id="faqSearch" placeholder="Search a question…"><button type="button" id="faqSearchBtn">Search</button></label>
+  <div class="faq-chips" id="faqChips"></div>
+  <div id="faqList" class="faq-list"></div>
 </section>
 
 <section id="quick-fixes" class="section soft">
@@ -156,7 +180,7 @@
   </div>
 </section>
 
-<section class="support">
+<section id="support-page" class="support">
   <div><span class="eyebrow">STILL STUCK?</span><h2>We're happy to help directly</h2><p>If the guides above didn't sort it out, just reach out — no question is too small.</p></div>
   <div class="support-actions"><a class="btn primary" href="mailto:Support.au@controlbionics.com">Email Support</a><a class="btn" target="_blank" rel="noopener" href="https://bookings.cloud.microsoft/book/ControlBionics@controlbionics.com/?ismsaljsauthenabled=true">Book Support</a></div>
 </section>
